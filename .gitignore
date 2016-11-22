@@ -1,4 +1,3 @@
 stockdata/*
 stockreports/*
 *.db
-*.db-journal
