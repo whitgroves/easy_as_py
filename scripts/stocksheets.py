@@ -19,7 +19,7 @@ fileUrl += '{0}/{1}/{2}.csv.zip'.format(year, month, baseFileName)
 
 # dataPath denotes the local folder to extract the zip file into.
 # If this path doesn't exist yet, a new folder will be created with that name.
-dataPath = 'stockdata'
+dataPath = '..\\stockdata'
 if not os.path.isdir(dataPath):
 	os.makedirs(dataPath)
 
